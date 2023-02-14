@@ -1,0 +1,36 @@
+* {
+	font-family: sans-serif;
+}
+
+body {
+	background-color: red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 10%;
+}
+
+h1 {
+	background-color: rgb(18, 29, 29);
+	padding: 10px 20px;
+	border-radius: 10px;
+	color: white;
+}
+
+h1 span {
+	color: rgb(64, 131, 175);
+}
+
+button {
+	padding: 10px 20px;
+	border: solid black 1px;
+	border-radius: 5px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+button:hover {
+	cursor: pointer;
+   background-color: aliceblue;
+}
